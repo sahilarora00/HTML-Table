@@ -1,0 +1,118 @@
+/* legemd start here */
+#legend{
+    text-align: center;
+}
+table,th,td{
+    text-align: center;
+    
+    border:  solid white;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px ;
+    box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+}
+th{ 
+    background-color: #fda5a5;
+    border-radius: 5px;
+    border-style: outset;
+    text-align: center;
+    border: 1px solid white;
+
+}
+
+td{ background-color: antiquewhite;
+    text-align: center;
+    border: 1px solid white;
+    text-align: center;
+    
+}
+
+table{ box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+    text-align: center;
+    margin: 25px 256px;
+    padding: 6px 0px;
+}
+ /* tr css use for our wish */
+
+tr{
+    
+    margin: 0px 0px;
+    padding: 0px 0px ;
+    text-align: center;
+}
+
+
+th:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  
+td:nth-child(even) {
+    background-color: white;
+  }
+
+  /* Common styles for legend and table */
+#legend {
+    text-align: center;
+}
+
+table, th, td {
+    text-align: center;
+    border: solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+    border: 1px solid white;
+}
+
+th {
+    background-color: #fda5a5;
+    border-radius: 5px;
+    border-style: outset;
+    text-align: center;
+}
+
+td {
+    background-color: antiquewhite;
+    border: 1px solid white;
+    text-align: center;
+}
+
+table {
+    box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+    text-align: center;
+    margin: 25px auto;
+    padding: 6px 0px;
+}
+
+tr {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+/* Alternate row colors */
+th:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+td:nth-child(even) {
+    background-color: white;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    table {
+        margin: 10px auto;
+        padding: 2px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
+
+   
